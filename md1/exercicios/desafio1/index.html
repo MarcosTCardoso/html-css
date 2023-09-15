@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de dimensionamento</title>
+</head>
+<body>
+    <h1>Abaixo temos uma imagem dimensionada</h1>
+    <p>Tente abrir esse site em dispositivos diferentes, ou simplesmente tente diminuir e aumentar o tamanho da tela do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="Img pequena">
+    </picture>
+    <h2>Reproduzindo audio</h2>
+    <p>Vamos reproduzir um áudio.</p>
+    <audio src="oh_fire.mp3" controls autoplay></audio>
+<!-- MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="oh_fire.mp3" type="audio/mpeg" loop>
+        <source src="oh_fire.wav" type="audio/wav"><!--Evitar usar o wav.-->
+        <source src="oh_fire.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não pode reproduzir áudios. 
+            Clique <a href="oh_fire.mp3">aqui</a> para baixar o arquivo.
+        </p>
+    </audio>
+</body>
+</html>

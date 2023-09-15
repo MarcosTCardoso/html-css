@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        h1 {
+            border: 8px solid black;
+            padding: 10px auto auto auto;
+            border-image-source: url(border.png);
+            border-image-slice: 39;
+            border-image-repeat: repeat;
+            box-shadow: 4px 4px 8px 1px rgba(42, 1, 252, 0.375);
+            text-align: center;
+            width: max-content;
+            position: inherit;
+            margin-left: 37%;
+            border-radius: 10px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 420px;
+            margin: 10px;
+            background-image: linear-gradient(to bottom, rgba(130, 105, 253, 0.086), rgba(43, 1, 252, 0.074));
+            border-radius: 50%;
+            margin-left: 37%;
+            margin-top: -55px;
+            box-shadow: inset 0px -20px 12px 0px rgba(42, 42, 246, 0.112);;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Borda Personalizada</h1>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

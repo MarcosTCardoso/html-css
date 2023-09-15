@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body {
+    background-image: linear-gradient(to left, #EBEFF2, #D9ABA0);
+    text-align: justify;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    padding: 4em;
+    margin: auto;
+}
+
+h1 {
+    position: initial;
+    margin-top: revert;
+    color: #A61B40;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-size: 75px;
+    text-shadow: #D9ABA0 0.1em 0.1em 0.2em;
+}
+
+h2 {
+    color: #A61B40;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: #D9ABA0 0.1em 0.1em 0.2em;
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: inline-block;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D9ABA0;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #4c0c1d;
+    background-color: #A61B40;
+    text-align: center;
+}
+
+div:hover {
+    background-color: black;
+}
+
+div > p {
+    display: none;
+}
+
+div.ft2 {
+    float: right;
+    margin: auto 380px auto auto;
+    display: block;
+}
+
+div:hover > p {
+    display: block;
+}
+img {
+    display: box-level;
+}
+
+h1.cabeçalho {
+    position: fixed;
+    margin: -8px;
+    display: inline-block;
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D9ABA0;
+
+    height: 100px;
+    width: 100%;
+    background-color: #ae887f;
+    text-align: center;
+
+    outline-style: double;
+    outline-color: salmon;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Fontes</title>
+    <style>
+        @font-face {
+            font-family: 'Funtime';
+            src: url('fonts/funtime.otf') format('opentype');
+            font-weight: normal;
+            font-size: normal;
+        }
+        /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+        */
+        body{
+            font-family: Arial, Helvetica, serif;
+        }
+        h1 {
+            font-family: 'Funtime', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes teste</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ex autem inventore, sed corporis exercitationem esse error obcaecati mollitia pariatur architecto, molestias provident fugit nostrum sint vitae, id aperiam placeat!</p>
+</body>
+</html>

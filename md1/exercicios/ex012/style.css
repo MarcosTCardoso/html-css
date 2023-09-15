@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;500;900&display=swap');
+
+body {
+    background-image: linear-gradient(to right, rgb(0, 99, 0), rgba(0, 255, 0, 0.884));
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+
+    background-image: linear-gradient(to right, rgb(0, 99, 0), rgb(0, 255, 0));
+    margin: -120px 0px 0px 0px;
+    border: 0px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+nav > a {
+    margin-right: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: azure;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+li {
+    display: block;
+    margin: auto auto auto 310px;
+    font-family: 'phudu', cursive;
+}
+
+main {
+    background-color: lightgray;
+    margin: 120px 120px auto 120px;
+    border-radius: 10px;
+    padding: 3em;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3em;
+    color: linear-gradient(to right, rgb(0, 99, 0), rgba(0, 255, 0, 0.884));
+}
+
+h1.principal {
+    background-color: rgb(255, 255, 255);  
+    background-image: linear-gradient(to right, rgb(0, 99, 0), rgba(0, 255, 0, 0.884));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Phudu', cursive;
+    font-size: 4em;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: 'phudu', cursive;
+    font-weight: 500;
+    font-size: 3em;
+
+    background-color: rgb(255, 255, 255);  
+    background-image: linear-gradient(to right, rgb(0, 99, 0), rgba(0, 255, 0, 0.884));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: auto auto auto 350px;
+}
+
+img.foto_pessoal {
+    position: relative;
+    margin: -50px auto auto auto;
+    display: inline;
+}
+
+p{
+    text-align: justify;
+    font-family: 'phudu', cursive;
+    font-weight: 300;
+    margin: -230px auto 30px 350px;
+    text-indent: 100px;
+    color: black;
+    font-size: 1.5em;
+}
