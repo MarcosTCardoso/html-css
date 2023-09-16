@@ -175,6 +175,45 @@ main div.video > iframe {
     height: 90%;
 }
 
+main div.noticias {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 40%;
+    text-decoration: none;
+}
+
+main div.noticias:hover{
+    background-color: var(--cor3);
+}
+
+main div.noticias a > p  {
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: var(--fonte-padrao);
+
+    text-align: justify;
+    text-indent: 0px;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+main a picture > img.img_noticias {
+    width: 100%;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    padding: 0%;
+    margin: 0px 0px 0px -6px;
+}
+
+main div > a.link_noticias{
+    display: inline;
+    background-color: transparent;
+}
+
+main div > a.link_noticias:hover{
+    color: var(--cor1);
+}
+
 aside {
     background-color: var(--cor1);
     padding: 10px;
