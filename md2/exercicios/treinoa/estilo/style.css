@@ -18,6 +18,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
@@ -65,12 +66,13 @@ main {
 main > h2 {
     text-align: center;
     font-family: var(--font2);
+    font-size: 5vw;
 }
 
 main section > p {
     padding: 15px 0px;
     text-align: justify;
-    text-indent: 4em;
+    font-size: 3vw;
 }
 
 section.img > p {
@@ -87,7 +89,7 @@ section.img > p {
     border-radius: 25px;
     box-shadow: inset 6px 6px 13px black;
     background-image: url(../imagens/cat-2083492_640.jpg);
-    background-position: right right;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
