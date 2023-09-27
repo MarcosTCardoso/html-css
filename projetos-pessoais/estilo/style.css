@@ -66,6 +66,7 @@ main {
 section {
     background-color: white;
     width: 80vw;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -74,8 +75,8 @@ main section h2 {
     padding: 25px;
 }
 
-main section h2.naruto {
-    padding-top: 65px;
+main section h2:first-of-type {
+    padding-top: 25px;
     text-shadow: 1px 3px 8px black;
     font-size: 2em;
 }
@@ -90,6 +91,11 @@ div {
     padding: 25px 0px 25px 0px;
 }
 
+div.anime {
+    width: 50vw;
+    margin: auto;
+}
+
 img {
     display: block;
     width: 50vw;
@@ -97,6 +103,35 @@ img {
     text-align: center;
     margin: auto;
     box-shadow: 1px 8px 20px black;
+}
+
+a.link-anime {
+    width: 50vw;
+}
+
+section.redes-sociais {
+    padding-bottom: 15px;
+}
+
+section.redes-sociais h3 {
+    display: inline-block;
+    padding: 35px 0px 0px 15px;
+}
+
+section.redes-sociais > a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+section.redes-sociais > p > a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -110,3 +145,4 @@ footer p {
     padding: 5px 0px;
     text-align: center;
 }
+
