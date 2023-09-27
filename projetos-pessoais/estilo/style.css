@@ -127,7 +127,7 @@ section.redes-sociais > a {
     border: 1px solid black;
     border-radius: 25px;
     background-color: black;
-    margin-left: 20px;
+    margin: 15px 0px 15px 15px;
 }
 
 section.redes-sociais > p > a:hover {
