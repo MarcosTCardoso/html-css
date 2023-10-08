@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+Typical Device Brealpoints
+Pequenas telas: até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 922px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 922px) {
+    main {
+        max-width: 922px;
+    }
+    
+    span#burguer {
+        display: none;
+    }
+
+    header ul li{
+        display: inline-block;
+    }
+
+    header menu ul li a {
+        border-top: 0px solid white;
+    }
+}
