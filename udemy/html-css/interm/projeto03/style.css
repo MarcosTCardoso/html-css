@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*Barra de navegação vertical*/
+
+ul#navegacao {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width: 720px;
+    background: #159cb0 url(imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul#navegacao li {
+    float: left;
+}
+
+ul#navegacao a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
+    background: url(imagens/divisor.png) repeat-y left top;
+}
+
+ul#navegacao li.primeiro a {
+    background: none;
+}
+
+ul#navegacao a:hover {
+    color: #085662;
+    background: #44cade !important;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a, 
+#servicos #navegacao .servicos a {
+    color: #085662;
+    background: #44cade !important;
+}
